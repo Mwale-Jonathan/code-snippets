@@ -1,0 +1,110 @@
+{% extends "admin/base.html" %}
+{% load static %}
+
+{% block title %}{% if subtitle %}{{ subtitle }} | {% endif %}{{ title }} | {{ site_title|default:_('Django site admin') }}{% endblock %}
+
+{% block branding %}
+<h1 id="site-name">
+    <a href="{% url 'admin:index' %}">{{ site_header|default:_('Django administration') }}</a>
+</h1>
+{% endblock %}
+
+{% block nav-global %}{% endblock %}
+
+{% block extrastyle %}
+<style>
+@font-face {
+    font-family: 'Rubik';
+    src: url("{% static 'fonts/Rubik-Regular.ttf' %}");
+}
+
+:root {
+    --primary: #1C3459;
+    --secondary: #102950;
+    --accent: #f5dd5d;
+    --primary-fg: #fff;
+    --body-fg: #333;
+    --body-bg: #f2f2f8;
+    --body-quiet-color: #666;
+    --body-loud-color: #000;
+    --header-color: #ffc;
+    --header-branding-color: var(--accent);
+    --header-bg: var(--secondary);
+    --header-link-color: var(--primary-fg);
+    --breadcrumbs-fg: #c4dce8;
+    --breadcrumbs-link-fg: var(--body-bg);
+    --breadcrumbs-bg: var(--primary);
+    --link-fg: #4E73DF;
+    --link-hover-color: #1b9edb;
+    --link-selected-fg: #5b80b2;
+    --hairline-color: #e8e8e8;
+    --border-color: #ccc;
+    --error-fg: #ba2121;
+    --message-success-bg: #dfd;
+    --message-warning-bg: #ffc;
+    --message-error-bg: #ffefef;
+    --darkened-bg: #f8f8f8;
+    --selected-bg: #e4e4e4;
+    --selected-row: #ffc;
+    --button-fg: #fff;
+    --button-bg: var(--primary);
+    --button-hover-bg: #2377a0;
+    --default-button-bg: var(--secondary);
+    --default-button-hover-bg: #205067;
+    --close-button-bg: #888;
+    --close-button-hover-bg: #747474;
+    --delete-button-bg: #ba2121;
+    --delete-button-hover-bg: #a41515;
+    --object-tools-fg: var(--button-fg);
+    --object-tools-bg: #198754;
+    --object-tools-hover-bg: #20c997;
+}
+
+body {
+    font-family: 'Rubik';
+}
+
+a, a:hover {
+    text-decoration: none !important;
+}
+
+#user-tools a:focus, #user-tools a:hover {
+    text-decoration: none;
+    border-bottom-color: var(--accent);
+    color: var(--accent);
+}
+
+#toolbar, #content-related {
+    box-shadow: 0px 0px 10px  #ccc;
+}
+
+input, textarea {
+    outline: none !important;
+}
+
+.main > .content {
+    flex: 1 0;
+    max-width: 1020px;
+    margin: 0 auto;
+}
+
+#branding h1, #branding h1 a:link, #branding h1 a:visited {
+    font-weight: 600;
+}
+
+.dashboard #content {
+    margin: 0 auto;
+}
+
+.dj {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+
+</style>
+{% endblock extrastyle %}
+
+
