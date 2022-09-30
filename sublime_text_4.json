@@ -6,6 +6,16 @@
   "sidebar" : "Sidebar Enhancements",
 }
 
+//Theme rules Tweaks 
+{
+    "class": "title_bar",
+    "bg": "#1a1a1a",
+    "fg": "#ffffff"
+}
+
+//Color scheme Tweaks
+"background": "#212121"
+
 // Settings
 
 {
