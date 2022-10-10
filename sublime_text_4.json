@@ -2,8 +2,25 @@
 {
   "theme": "material theme",
   "color scheme": "One Dark Material Theme",
-  "snippets": "Emment & Django",
+  "snippets": "Emment & Django & Anacoda",
   "sidebar" : "Sidebar Enhancements",
+}
+
+//Anaconda
+{
+    "auto_formatting": true,
+    "autoformat_ignore":
+    [
+    ],
+    "pep8_ignore":
+    [
+        "E501"
+    ],
+    "anaconda_linter_underlines": false,
+    "anaconda_linter_mark_style": "none",
+    "display_signatures": false,
+    "disable_anaconda_completion": true,
+    "python_interpreter": "C:\\Users\\Mwale-Jonathan\\AppData\\Local\\Programs\\Python\\Python310\\python.exe"
 }
 
 //Theme rules Tweaks 
@@ -19,23 +36,91 @@
 // Settings
 
 {
-	"font_size": 13,
-	"font_face": "Fira Code",
-	"font_options":
-	[
-	    "subpixel_antialias",
+    "bold_folder_labels": true,
+    "caret_extra_width": 1,
+    "caret_style": "phase",
+    "close_windows_when_empty": false,
+    // "copy_with_empty_selection": false,
+    "drag_text": false,
+    "draw_minimap_border": true,
+    "draw_white_space": "none",
+    "enable_tab_scrolling": false,
+    "ensure_newline_at_eof_on_save": true,
+    "file_exclude_patterns":
+    [
+        "*.pyc",
+        "*.pyo",
+        "*.exe",
+        "*.dll",
+        "*.obj",
+        "*.o",
+        "*.a",
+        "*.lib",
+        "*.so",
+        "*.dylib",
+        "*.ncb",
+        "*.sdf",
+        "*.suo",
+        "*.pdb",
+        "*.idb",
+        ".DS_Store",
+        "*.class",
+        "*.psd",
+        "*.sublime-workspace"
+    ],
+    "font_face": "Fira Code",
+    "font_options":
+    [
+        "no_round",
+        "subpixel_antialias",
     	"gray_antialias",
-	],
-	"ignored_packages":
-	[
-		"Vintage",
-	],
-	"preview_on_click": false,
-	"theme": "Material-Theme-Darker.sublime-theme",
-	"color_scheme": "Packages/One Dark Material - Theme/schemes/OneDark.tmTheme",
-	"material_theme_accent_graphite": true,
-	"material_theme_accent_titlebar": true,
-	"material_theme_contrast_mode": true,
-	"material_theme_small_tab": true,
+    ],
+    "font_size": 13,
+    "highlight_line": true,
+    "highlight_modified_tabs": true,
+    "ignored_packages":
+    [
+        "ActionScript",
+        "AppleScript",
+        "ASP",
+        "D",
+        "Diff",
+        "Erlang",
+        "Graphviz",
+        "Groovy",
+        "Lisp",
+        "Lua",
+        "Objective-C",
+        "OCaml",
+        "Rails",
+        "Ruby",
+        "Vintage"
+    ],
+    "line_padding_bottom": 1,
+    "line_padding_top": 1,
+    "match_brackets_content": false,
+    "match_selection": false,
+    "match_tags": false,
+    "material_theme_accent_graphite": true,
+    "material_theme_compact_sidebar": true,
+    "material_theme_small_tab": true,
+    "material_theme_contrast_mode": true,
+    "mini_diff": false,
+    "open_files_in_new_window": false,
+    "overlay_scroll_bars": "enabled",
+    "preview_on_click": false,
+    "scroll_past_end": true,
+    "scroll_speed": 5.0,
+    "show_definitions": false,
+    "show_encoding": true,
+    "show_errors_inline": false,
+    "show_full_path": false,
+    "sidebar_default": true,
+    "swallow_startup_errors": true,
+    "theme": "Material-Theme-Darker.sublime-theme",
+    "translate_tabs_to_spaces": true,
+    "trim_trailing_white_space_on_save": true,
+    "use_simple_full_screen": true,
+    "word_wrap": false,
+    "color_scheme": "Packages/One Dark Material - Theme/schemes/OneDark.tmTheme",
 }
-
