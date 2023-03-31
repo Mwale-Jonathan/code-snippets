@@ -29,6 +29,10 @@
     "class": "title_bar",
     "bg": "#1a1a1a",
     "fg": "#ffffff"
+},
+{
+    "class": "tabset_control",
+    "layer0.tint": [26, 26, 26]
 }
 
 //Color scheme Tweaks
