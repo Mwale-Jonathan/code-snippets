@@ -42,6 +42,14 @@
     "scope": "keyword",
     "font_style": "italic",
 },
+{
+    "scope": "entity.other.attribute-name",
+    "font_style": "italic",
+},
+{
+    "scope": "variable",
+    "font_style": "italic",
+},
 
 // Settings
 {
