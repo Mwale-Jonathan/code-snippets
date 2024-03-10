@@ -37,9 +37,13 @@
 
 //Color scheme Tweaks
 "background": "#212121"
+//Color scheme Rules
+{
+    "scope": "keyword",
+    "font_style": "italic",
+},
 
 // Settings
-
 {
     "bold_folder_labels": true,
     "caret_extra_width": 1,
