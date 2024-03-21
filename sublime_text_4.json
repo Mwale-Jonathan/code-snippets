@@ -2,7 +2,7 @@
 {
   "theme": "material theme",
   "color scheme": "One Dark Material Theme",
-  "snippets": "Emment & Django & Anacoda",
+  "snippets": "Emment & Django & Anacoda & Tailwind CSS Autocomplete v3.2.2",
   "sidebar" : "Sidebar Enhancements",
   "color": "color highlighter",
 }
@@ -122,6 +122,9 @@
     "material_theme_compact_sidebar": true,
     "material_theme_small_tab": true,
     "material_theme_contrast_mode": true,
+    "material_theme_big_fileicons": true,
+    "line_padding_bottom": 1,
+    "line_padding_top": 2,
     "mini_diff": false,
     "open_files_in_new_window": false,
     "overlay_scroll_bars": "enabled",
